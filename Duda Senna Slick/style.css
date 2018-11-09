@@ -1,0 +1,66 @@
+html{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* Altura qualquer */
+  top: 0;
+  background-color: #E0E0E0;
+}
+
+/* A parte acima não inclui o slider */
+
+.slider {
+  width: 100%;
+  height: auto;
+}
+
+.item-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.item {
+  margin: auto;
+  width: 100%;
+  box-shadow: 0 4px 2px -2px grey;
+  overflow: hidden;
+  background-image: url("images/grupo_amigos.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  opacity: 0.6;
+}
+
+.item2 {
+  margin: auto;
+  width: 100%;
+  box-shadow: 0 4px 2px -2px grey;
+  overflow: hidden;
+  background-image: url("images/black_holes_bck.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  opacity: 0.6;
+}
+
+/* Cor das arrows */
+.slick-prev {
+  left: 50px;
+  z-index: 1;
+}
+.slick-next {
+  right: 50px;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 50px;
+  color: lightgrey;
+  opacity: 0.75;
+}
+
+
