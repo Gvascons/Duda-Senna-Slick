@@ -1,1 +1,1 @@
-# Duda-Senna-Slick
+# Slick
